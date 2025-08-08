@@ -3,6 +3,9 @@ import json
 
 
 def extract_last_text_value(input_file, output_file="ai_goods_report.json"):
+    """
+    提取最后一个text字段内容，处理转义字符，生成标准格式化JSON
+    """
     try:
         # 1. 读取文件内容
         with open(input_file, "r", encoding="utf-8") as f:
@@ -43,8 +46,3 @@ def extract_last_text_value(input_file, output_file="ai_goods_report.json"):
         print(f"错误：输入文件 {input_file} 未找到")
     except Exception as e:
         print(f"处理失败：{str(e)}")
-
-
-if __name__ == "__main__":
-    input_file_path = "raw_server_events.json"  # 替换为你的文件路径
-    extract_last_text_value(input_file_path)
