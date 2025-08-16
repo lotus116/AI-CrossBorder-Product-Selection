@@ -13,4 +13,4 @@ https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/yf_amazon/in
 4. **加工处理：**\n",
     1. 将全角字符转换为半角字符，并采用 UTF-8 编码\n",
     2. 整理成与 [MovieLens](https://grouplens.org/datasets/movielens/) 兼容的格式\n",
-    3. 进行脱敏操作，以保护用户隐私"
+    3. 进行脱敏操作，以保护用户隐私" 
