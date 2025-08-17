@@ -15,7 +15,7 @@
 ### 1. 环境要求
 
 *   Python 版本：3.7 及以上（需支持异步语法 asyncio）
-*   依赖库：
+*   依赖库：transformers==4.42.3
 ```
 # 阿里云相关 SDK 及基础库
 pip install alibabacloud-tea-openapi-sse alibabacloud-tea-util-sse
